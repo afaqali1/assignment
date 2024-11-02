@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 6%;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.card {
+    font-family: Arial, sans-serif;
+    background: #a2e3d0; /* Light blue background */
+    border-radius: 25px;
+    padding: 15px;
+    margin: 20px 0; /* Increased margin for clearer separation */
+    text-align: center;
+}
+
+.card img {
+    border-radius: 50%; /* Circular images */
+    width: 100px; /* Fixed image size */
+}
+
+button {
+    background: #1159a2; /* Button color */
+    color: #fff; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Button padding */
+    cursor: pointer; /* Pointer cursor */
+}
+
+button:hover {
+    background: #204c39; /* Darker blue on hover */
+}
